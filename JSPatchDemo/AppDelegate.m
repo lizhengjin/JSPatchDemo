@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LQJSViewController.h"
+#import "JSPatchPlatform.framework/Headers/JSPatch.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    LQJSViewController *vc = [[LQJSViewController alloc]init];
+    
+    vc.view.backgroundColor = [UIColor magentaColor];
+    
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    
+    self.window.rootViewController = nav;
+    
+    [self.window makeKeyWindow];
+//    [JSPatch testScriptInBundle];
+    [JSPatch startWithAppKey:@"2025aad785a2cc3c"];
+    [JSPatch sync];
     return YES;
 }
 

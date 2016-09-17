@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		4E5315AB1D8D1FB4007D9CD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5315AA1D8D1FB4007D9CD4 /* main.m */; };
 		4E5315AE1D8D1FB4007D9CD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5315AD1D8D1FB4007D9CD4 /* AppDelegate.m */; };
-		4E5315B11D8D1FB4007D9CD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5315B01D8D1FB4007D9CD4 /* ViewController.m */; };
 		4E5315B41D8D1FB4007D9CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5315B21D8D1FB4007D9CD4 /* Main.storyboard */; };
 		4E5315B61D8D1FB4007D9CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5315B51D8D1FB4007D9CD4 /* Assets.xcassets */; };
 		4E5315B91D8D1FB4007D9CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5315B71D8D1FB4007D9CD4 /* LaunchScreen.storyboard */; };
 		4E5315C41D8D1FB4007D9CD4 /* JSPatchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5315C31D8D1FB4007D9CD4 /* JSPatchDemoTests.m */; };
 		4E5315CF1D8D1FB4007D9CD4 /* JSPatchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5315CE1D8D1FB4007D9CD4 /* JSPatchDemoUITests.m */; };
+		4E5315DF1D8D22D9007D9CD4 /* JSPatchPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5315DE1D8D22D9007D9CD4 /* JSPatchPlatform.framework */; };
+		4E5315E21D8D249C007D9CD4 /* LQJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5315E11D8D249C007D9CD4 /* LQJSViewController.m */; };
+		4E5315E71D8D2840007D9CD4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5315E61D8D2840007D9CD4 /* libz.tbd */; };
+		4E5315E91D8D2848007D9CD4 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5315E81D8D2848007D9CD4 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		4E5315AA1D8D1FB4007D9CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E5315AC1D8D1FB4007D9CD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E5315AD1D8D1FB4007D9CD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4E5315AF1D8D1FB4007D9CD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4E5315B01D8D1FB4007D9CD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E5315B31D8D1FB4007D9CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E5315B51D8D1FB4007D9CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E5315B81D8D1FB4007D9CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,11 @@
 		4E5315CA1D8D1FB4007D9CD4 /* JSPatchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPatchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5315CE1D8D1FB4007D9CD4 /* JSPatchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPatchDemoUITests.m; sourceTree = "<group>"; };
 		4E5315D01D8D1FB4007D9CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5315DE1D8D22D9007D9CD4 /* JSPatchPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatchPlatform.framework; sourceTree = "<group>"; };
+		4E5315E01D8D249C007D9CD4 /* LQJSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LQJSViewController.h; path = ../LQJSViewController.h; sourceTree = "<group>"; };
+		4E5315E11D8D249C007D9CD4 /* LQJSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LQJSViewController.m; path = ../LQJSViewController.m; sourceTree = "<group>"; };
+		4E5315E61D8D2840007D9CD4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4E5315E81D8D2848007D9CD4 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5315E91D8D2848007D9CD4 /* JavaScriptCore.framework in Frameworks */,
+				4E5315E71D8D2840007D9CD4 /* libz.tbd in Frameworks */,
+				4E5315DF1D8D22D9007D9CD4 /* JSPatchPlatform.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 				4E5315C21D8D1FB4007D9CD4 /* JSPatchDemoTests */,
 				4E5315CD1D8D1FB4007D9CD4 /* JSPatchDemoUITests */,
 				4E5315A71D8D1FB4007D9CD4 /* Products */,
+				4E5315E51D8D2840007D9CD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +111,11 @@
 		4E5315A81D8D1FB4007D9CD4 /* JSPatchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4E5315DE1D8D22D9007D9CD4 /* JSPatchPlatform.framework */,
 				4E5315AC1D8D1FB4007D9CD4 /* AppDelegate.h */,
 				4E5315AD1D8D1FB4007D9CD4 /* AppDelegate.m */,
-				4E5315AF1D8D1FB4007D9CD4 /* ViewController.h */,
-				4E5315B01D8D1FB4007D9CD4 /* ViewController.m */,
+				4E5315E01D8D249C007D9CD4 /* LQJSViewController.h */,
+				4E5315E11D8D249C007D9CD4 /* LQJSViewController.m */,
 				4E5315B21D8D1FB4007D9CD4 /* Main.storyboard */,
 				4E5315B51D8D1FB4007D9CD4 /* Assets.xcassets */,
 				4E5315B71D8D1FB4007D9CD4 /* LaunchScreen.storyboard */,
@@ -138,6 +149,15 @@
 				4E5315D01D8D1FB4007D9CD4 /* Info.plist */,
 			);
 			path = JSPatchDemoUITests;
+			sourceTree = "<group>";
+		};
+		4E5315E51D8D2840007D9CD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E5315E81D8D2848007D9CD4 /* JavaScriptCore.framework */,
+				4E5315E61D8D2840007D9CD4 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +227,7 @@
 				TargetAttributes = {
 					4E5315A51D8D1FB4007D9CD4 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 686TP5D9Q7;
 						ProvisioningStyle = Automatic;
 					};
 					4E5315BE1D8D1FB4007D9CD4 = {
@@ -273,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E5315B11D8D1FB4007D9CD4 /* ViewController.m in Sources */,
+				4E5315E21D8D249C007D9CD4 /* LQJSViewController.m in Sources */,
 				4E5315AE1D8D1FB4007D9CD4 /* AppDelegate.m in Sources */,
 				4E5315AB1D8D1FB4007D9CD4 /* main.m in Sources */,
 			);
@@ -370,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -412,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,6 +445,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 686TP5D9Q7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JSPatchDemo",
+				);
 				INFOPLIST_FILE = JSPatchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHTC.JSPatchDemo;
@@ -435,6 +461,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 686TP5D9Q7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JSPatchDemo",
+				);
 				INFOPLIST_FILE = JSPatchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHTC.JSPatchDemo;
